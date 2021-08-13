@@ -26,3 +26,12 @@
 
 # pull image from docker hub 
 # docker pull 11615192/express-server:latest  # after this try to run this image again it will work
+
+
+# after creating docker compose file we only need to run one command 
+# docker compose up
+
+# and to stop container
+# docker compose down
+
+# all the details we need to mention in docker compose file - we can add mutiple service too

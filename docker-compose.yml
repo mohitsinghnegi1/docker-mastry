@@ -1,0 +1,9 @@
+version: '2'
+services:
+  server-express:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: express-server
+    ports:
+      - 9000:9000
