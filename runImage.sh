@@ -35,3 +35,10 @@
 # docker compose down
 
 # all the details we need to mention in docker compose file - we can add mutiple service too
+
+
+# there are 3 different ways to run an image with env
+
+# 1. either define env variables inside Dockerfile (anyone can use it without passing env variable or docker compose)
+# 2. define docker-compose file with env and then create an image (env will be expose only at run time , image will not capture env ie build time)
+# 3. use env.list file and exeute the command mentioned in runImageWithEnv.sh file (run time expose env thorugh cli)

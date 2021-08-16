@@ -1,0 +1,1 @@
+docker run --env-file env.list -p 9090:9090  435821420213.dkr.ecr.ap-southeast-1.amazonaws.com/dice-simple
